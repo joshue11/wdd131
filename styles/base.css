@@ -1,0 +1,87 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  background-color: #004aad;
+  color: white;
+  padding: 1rem 0;
+}
+
+#course-title {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* NAVIGATION */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #002f6c;
+}
+
+/* MAIN */
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  display: grid;
+  gap: 1.5rem;
+  padding: 0 1rem;
+}
+
+h1 {
+  text-align: center;
+  color: #004aad;
+}
+
+/* CARDS */
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.card img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+  background-color: #004aad;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+footer p {
+  margin: 0.3rem 0;
+}
